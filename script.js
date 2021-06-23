@@ -21,13 +21,13 @@ function convertToWord(letter) {
     return "Scissors"
 }
 
-(document.getElementById("reset-button")).addEventListener('click', function () {
-    userScore = 0;
-    computerScore = 0;
-    userScore_span.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = "Game Restarted. Please make your move."
-})
+// (document.getElementById("reset-button")).addEventListener('click', function () {
+//     userScore = 0;
+//     computerScore = 0;
+//     userScore_span.innerHTML = userScore;
+//     computerScore_span.innerHTML = computerScore;
+//     result_div.innerHTML = "Game Restarted. Please make your move."
+// })
 
 function wins(userChoice, computerChoice) {
     const user = "(User)".fontsize(3).sub();
