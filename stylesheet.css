@@ -144,8 +144,17 @@ img {
 
 #reset-button {
     text-align: center;
-    position:relative;
     
+}
 
+.foot{
+    margin-top: 20%;
+    background-color: white;
+    margin-bottom: none;
+    
+}
 
+a{
+    color: #24272E;
+    
 }

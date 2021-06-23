@@ -10,6 +10,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined"
         crossorigin="anonymous"></script>
+    <link rel="icon" href="/images/android-chrome-192x192.png" sizes="16x16" type="image​/png">
+
     <title>Rock-Paper-Scissors Game </title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
@@ -31,7 +33,7 @@
 
 
     <!-- Result -->
-    <div class="result">
+    <div class="result h3">
         <p>Game Started. Please make your move.</p>
     </div>
     <!-- Choices -->
@@ -51,9 +53,17 @@
 
     <div>
         <p id="action-message">Make Your Move.</p>
+        <!-- Reset button -->
+        <button id="reset-button" type="button" class="btn btn-secondary btn-lg btn-block p-2 sticky-bottom">Restart the
+            Game</button>
     </div>
-    <!-- Reset button -->
-    <button id="reset-button" type="button" class="btn btn-secondary btn-lg btn-block p-2">Restart the Game</button>
+    <footer class="foot">
+        <div class="footer-copyright text-center py-3">© 2021 Copyright: Rishikesh Shinde 
+            <div><a href="index.html">rockpaperscissorslive.netlify.app</a></div>
+            
+        </div>
+    </footer>
+
 
     <script src="script.js" charset="utf-8"></script>
 </body>
