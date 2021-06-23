@@ -5,15 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+        integrity="undefined" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined"
+        crossorigin="anonymous"></script>
     <title>Rock-Paper-Scissors Game </title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
+
     <!-- Heading -->
     <header>
         <h1>Rock Paper Scissors </h1>
     </header>
+    <div class="container"></div>
     <!-- Score Board -->
     <div class="score-board" id="scores">
         <div id="user-label" class="badge">User</div>
@@ -21,8 +28,7 @@
         <span id="user-score">0</span>:<span id="computer-score">0</span>
     </div>
 
-    <!-- Reset button -->
-    <div id="reset-button"><button class="reset">Restart</button></div>
+
 
     <!-- Result -->
     <div class="result">
@@ -45,6 +51,9 @@
 
     <div>
         <p id="action-message">Make Your Move.</p>
+    </div>
+    <!-- Reset button -->
+    <div id="reset-button"><button class="reset button">Restart</button></div>
     </div>
 
 

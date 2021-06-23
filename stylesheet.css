@@ -6,6 +6,8 @@
 
 header {
     background: white;
+    min-width: 80%;
+    
 }
 
 header>h1 {
@@ -18,19 +20,27 @@ header>h1 {
 
 body {
     background: #24272E;
+    
+}
+
+img {
+    width: 100%;
 }
 
 .score-board {
+    min-width:80%;
     margin: 20px auto;
     border: 3px solid white;
     border-radius: 4px;
     text-align: center;
-    width: 200px;
+    max-width: 30%;
+    width: 20%;
     color: white;
     font-size: 46px;
     padding: 15px 20px;
     font-family: Asap, sans-serif;
     position: relative;
+    
 
 }
 
@@ -44,20 +54,21 @@ body {
 
 #user-label {
     position: absolute;
-    top: 30px;
+    top: 40px;
     left: -25px;
 
 }
 
 #computer-label {
     position: absolute;
-    top: 30px;
+    top: 40px;
     right: -30px;
 }
 
 .result {
     font-size: 40px;
     color: white;
+    width: 100%;
 }
 
 .result>p {
@@ -69,6 +80,7 @@ body {
 .choices {
     margin: 50px 0px;
     text-align: center;
+    width: 100%;
 }
 
 .choice {
@@ -78,6 +90,9 @@ body {
     padding: 10px;
     margin: 10px;
     transition: all 0.3s ease;
+    width: 26%;
+    
+
 }
 
 .choice:hover {
@@ -93,12 +108,14 @@ body {
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+    width: 100%;
 
 }
 
 .green-glow {
     border: 4px solid #4dcc7d;
     box-shadow: 0 0 10px #36db41;
+
 }
 
 .red-glow {
@@ -127,12 +144,12 @@ body {
     text-align: center;
     width: 105px;
     font-size: 25px;
-    padding: 10px;
     font-family: Asap, sans-serif;
     position: absolute;
-    left: 1400px;
+    left: 35%;
     height: 50px;
-    top: 700px;
+    /* top: 85%; */
+    
 
 
 }
