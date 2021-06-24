@@ -165,18 +165,18 @@ a {
 
 @media screen and (max-width: 480px) {
     .score-board{
-        margin-top: 15%;
+        margin-top: 10%;
     }
     .result{
-        margin-top: 15%;
+        margin-top: 10%;
         font-size: 1.4rem;
     }
     .choice{
-        margin-top: 15%;
+        margin-top: 10%;
         width: 28%;
     }
     #action-message{
-        margin-top: 20%;
+        margin-top: 15%;
         font-size: 1.3rem;
     }
 
