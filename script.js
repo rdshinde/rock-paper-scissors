@@ -39,12 +39,12 @@ function wins(userChoice, computerChoice) {
     document.getElementById(userChoice).classList.add('green-glow');
     setTimeout(function () {
         document.getElementById(userChoice).classList.remove('green-glow')
-    }, 1500);
+    }, 500);
 
     document.getElementById("scores").classList.add('green-bg');
     setTimeout(function () {
         document.getElementById("scores").classList.remove('green-bg')
-    }, 1500);
+    }, 500);
 
 }
 
@@ -60,12 +60,12 @@ function lose(userChoice, computerChoice) {
     document.getElementById(userChoice).classList.add('red-glow');
     setTimeout(function () {
         document.getElementById(userChoice).classList.remove('red-glow')
-    }, 1500);
+    }, 500);
 
     document.getElementById("scores").classList.add('red-bg');
     setTimeout(function () {
         document.getElementById("scores").classList.remove('red-bg')
-    }, 1500);
+    }, 500);
 }
 
 
@@ -77,12 +77,12 @@ function draw(userChoice, computerChoice) {
     document.getElementById(userChoice).classList.add('grey-glow');
     setTimeout(function () {
         document.getElementById(userChoice).classList.remove('grey-glow')
-    }, 1000);
+    }, 500);
 
     document.getElementById("scores").classList.add('grey-bg');
     setTimeout(function () {
         document.getElementById("scores").classList.remove('grey-bg')
-    }, 1000);
+    }, 500);
 
 }
 
