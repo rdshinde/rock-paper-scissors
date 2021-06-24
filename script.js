@@ -77,12 +77,12 @@ function draw(userChoice, computerChoice) {
     document.getElementById(userChoice).classList.add('grey-glow');
     setTimeout(function () {
         document.getElementById(userChoice).classList.remove('grey-glow')
-    }, 1500);
+    }, 1000);
 
     document.getElementById("scores").classList.add('grey-bg');
     setTimeout(function () {
         document.getElementById("scores").classList.remove('grey-bg')
-    }, 1500);
+    }, 1000);
 
 }
 
